@@ -8,8 +8,8 @@ This web map Porto, was primarily developed as a visualization and data manageme
 
 ## Infrastructure set-up
 The map is composed of two main components, which are 
-- Data collection server (www.omdtz-data.org)
-- Web-map  (www.millmaps.org)
+- Data collection server
+- Web-map
 
 ### Requirements for deploying data collection server
 For server deployment, you are needed to prepare the following 
@@ -165,7 +165,7 @@ ufw disable
 ```
 - From the ```millsmap``` user account, clone this repo. Step into it with 
  ```
- git clone https://github.com/OMDTZ/MillsMap
+ git clone https://github.com/Iddy-Chazua/MillsMap
  ```
 - ```cd MillsMap```.
 - You'll need a file called ```secret_tokens.json``` that contains "username" and "password" for an ODK Central server containing your mill map data.
