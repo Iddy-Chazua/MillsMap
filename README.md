@@ -1,6 +1,10 @@
-# Tanzania Nationwide Mills Census - Webmap
+# Interactive Webmap
 
-This repo queries odk central server and updates a webmap automatically. Currently specific to a project in Tanzania funded by The World Food Programme (WFP) and executed by OpenMap Development Tanzania (OMDTZ).
+Originally authored by @ReettaValimaki with support from @Ivangayton for OpenMap development in Tanzania (OMDTZ) and maintained and updated by @Iddy-Chazua. 
+
+# Preface:
+
+This web map Porto, was primarily developed as a visualization and data management tool for nationwide data collection of mills and schools. It has successfully visualized data from over 55,000 mill machines and more than 17,000 primary schools across Tanzania. The web map uses an API to download data from the ODK central server.
 
 ## Infrastructure set-up
 The map is composed of two main components, which are 
