@@ -4,7 +4,7 @@ secret_tokens = json.load(open('secret_tokens.json', 'r'))
 email = secret_tokens['email']
 password = secret_tokens['password']
 aut = (email, password)
-base_url = 'https://omdtz-data.org'
+base_url = 'https://skyopen.org'
 
 mill_columns = ['__id', 'start', 'end',
                 'interviewee_mill_owner',
