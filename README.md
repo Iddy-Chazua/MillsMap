@@ -59,7 +59,7 @@ Server will be deployed, and each participants will be given a url and the passw
 ### Open Terminal (Linux/Mac) or Command Prompt (Windows):
  - The basic syntax for the SSH command is
 ```
-ssh millsmap@ipadress
+ssh root@ipadress
 ``` 
 
  - Modify firewall system by running
@@ -75,7 +75,18 @@ ufw disable
   sudo cp .ssh/authorized_keys /home/millsmap/.ssh/
   sudo chown millsmap /home/millsmap/.ssh/authorized_keys
 ```
-- From the ```millsmap``` user account, clone this repo. Step into it with 
+- Logout from the remote host
+```
+exit
+``` 
+
+ - Log in again, by using another user "millsmap" you created in above process
+```
+ssh root@ipadress 
+```
+ 
+- Download the program file
+
  ```
  git clone https://github.com/Iddy-Chazua/MillsMap/tree/presentation
  ```
