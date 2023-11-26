@@ -55,6 +55,13 @@ Server will be deployed, and each participants will be given a url and the passw
 
 ### Cloud deployment
 - Create a Digital Ocean droplet (or other server on whatever infrastructure you prefer), and associate a domain name with it. Either disable the UFW firewall or poke the appropriate holes in it for nginx and ssh.
+
+### Open Terminal (Linux/Mac) or Command Prompt (Windows):
+ - The basic syntax for the SSH command is
+```
+ssh millsmap@ipadress
+``` 
+
  - Modify firewall system by running
 ```
 ufw disable 
