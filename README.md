@@ -80,12 +80,14 @@ ufw disable
  git clone https://github.com/Iddy-Chazua/MillsMap/tree/presentation
  ```
 - ```cd MillsMap```.
-- You'll need a file called ```secret_tokens.json``` that contains "username" and "password" for an ODK Central server containing your mill map data.
-- Run the installation script with 
+- You'll need a file called ```secret_tokens.json``` that contains "username" and "password" for an ODK Central server containing your mill map data. For this testing, we have already created the secret token, with username, password and the odk central server to be used. SOONT WORRY ABOUT SECRET TOKEN
+
+- While your are in Millsmap folder; Run the installation script with 
   ```
   script/setup_presentation.sh
   ```
-  - Follow instructions. It needs the domain name, and your email so that "Let's Encrypt" can inform you when your certificate is expiring.
+  - 
+Follow instructions. For this installation, we will not use the domain name; the website will be accessed through the provided IP address. For the full installation, you will have to provide the domain name and your email so that "Let's Encrypt" can inform you when your certificate is expiring
 
 - Note: 
   - To change an odk central server: /app/config.py
