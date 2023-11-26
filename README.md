@@ -66,17 +66,17 @@ ufw disable
   sudo usermod -aG sudo millsmap
   sudo mkdir /home/millsmap/.ssh
   sudo cp .ssh/authorized_keys /home/millsmap/.ssh/
-  sudo chown hot-admin /home/millsmap/.ssh/authorized_keys
+  sudo chown millsmap /home/millsmap/.ssh/authorized_keys
 ```
 - From the ```millsmap``` user account, clone this repo. Step into it with 
  ```
- git clone https://github.com/Iddy-Chazua/MillsMap
+ git clone https://github.com/Iddy-Chazua/MillsMap/tree/presentation
  ```
 - ```cd MillsMap```.
 - You'll need a file called ```secret_tokens.json``` that contains "username" and "password" for an ODK Central server containing your mill map data.
 - Run the installation script with 
   ```
-  script/setup.sh
+  script/setup_presentation.sh
   ```
   - Follow instructions. It needs the domain name, and your email so that "Let's Encrypt" can inform you when your certificate is expiring.
 
