@@ -82,7 +82,7 @@ exit
 
  - Log in again, by using another user "millsmap" you created in above process
 ```
-ssh root@ipadress 
+ssh millsmapt@ipadress 
 ```
  
 - Download the program file
