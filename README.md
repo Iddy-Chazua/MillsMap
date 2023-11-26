@@ -80,7 +80,7 @@ ufw disable
  git clone https://github.com/Iddy-Chazua/MillsMap/tree/presentation
  ```
 - ```cd MillsMap```.
-- You'll need a file called ```secret_tokens.json``` that contains "username" and "password" for an ODK Central server containing your mill map data. For this testing, we have already created the secret token, with username, password and the odk central server to be used. SOONT WORRY ABOUT SECRET TOKEN
+- You'll need a file called secret_tokens.json that contains the "username" and "password" for an ODK Central server containing your mill map data. For this testing phase, we have already created the secret token with the username, password, and the ODK Central server to be used. SO FOR NOW, DON'T WORRY ABOUT THE SECRET TOKEN
 
 - While your are in Millsmap folder; Run the installation script with 
   ```
